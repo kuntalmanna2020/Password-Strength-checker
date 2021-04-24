@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body
+{
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', ; */
+    font-family: 'Raleway', sans-serif;
+    background-color: aliceblue;
+}
+
+h1
+{
+    margin: 15px 0 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+input
+{
+    color: rgb(71, 64, 64) !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus
+{
+    box-shadow: 0 0 5px rgb(189, 47, 71);
+    border: 1px solid rgb(189, 47, 71);
+    
+}
+
+.container
+{
+    /* position: absolute;
+    left: 30%; */
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal
+{
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.control-label
+{
+    text-align: left !important;
+    padding-bottom: 5px;
+}
+
+
+
+
+.progress
+{
+    height: 4px !important;
+    /* position: relative; */
+    /* top: 20px; */
+
+}
+/* 
+.form-group
+{
+    margin-bottom: 10px;
+} */
+
+/* .show-pass
+{
+
+    position: absolute;
+   top: 47%;
+   right: 20%;
+
+} */
+
+.progress-bar-danger
+{
+    background-color: rgb(255, 13, 13);
+}
+
+.progress-bar-warning
+{
+    background-color: rgba(255, 169, 8, 0.993);
+}
+
+.progress-bar-success
+{
+    background-color: rgba(80, 216, 17, 0.993);
+}
+.login-btn
+{
+    width: 180px !important;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0 auto 5px;
+    padding: 8px 0;
+}
+
+.login-btn:hover
+{
+    width: 100px !important;
+    background-image: linear-gradient(to right, rgba(255,0,111,0.8),rgb(192, 63, 63)) !important;
+    color: #ffffff;
+}
+
+.fa-eye
+{
+    color: #03042c;
+    cursor: pointer;
+}
+
+
+.fa-exclamation-circle
+{
+    font-size: 13px;
+    /* font-variant: normal; */
+    font-family: monospace;
+    font-weight: normal;
+    /* font-weight:; */
+    font-style: italic;
+    color: #f30808;
+    
+}
+
+.fa-check-circle
+{
+    color: #128103;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+.myform #password
+{
+    outline: none;
+    text-indent: 10px;
+
+
+
+}
+
+
+
+
+
+
+.horizontal .myform .toggle-password
+{
+    position:absolute;
+    /* position:relative; */
+
+    /* width:40px;
+    height:40px; */
+    top:5px;
+    right:30px;
+    /* height: 20px; */
+    border-radius:50%;
+    text-align:center;
+    line-height:35px;
+    font-size:14px;
+    cursor:pointer;
+
+    /* display: none; */
+
+  }
+.myform .toggle-password.active i.fa-eye {
+    display:none;
+  }
+.myform .toggle-password.active i.fa-eye-slash {
+    display:inline;
+  }
+.myform .toggle-password i.fa-eye-slash {
+    display:none;
+  }
+
+
+
+
+
+
+.myform #popover_password .check
+{
+    position:relative;
+    top:0px auto;
+    /* top: 450px; */
+    /* right:160px; */
+    left: 220px;
+    transform:translateX(-50%);
+    width:90%;
+    /* padding:0px; */
+    height:0px;
+    background:#f0ecec;
+    border-radius:5px;
+    margin-top:10px;
+    /* margin-bottom: 50px; */
+    box-sizing:border-box;
+    opacity:0;
+    overflow:hidden;
+    transition: height 300ms ease-in-out,
+                opacity 300ms ease-in-out;
+}
+
+.myform #popover_password .check.active
+{
+    opacity:1;
+    padding:10px;
+    height:115px;
+}
+
+
+.myform #popover_password .check > span
+{
+    margin:15px 10px;
+    font-weight:600;
+    color:#888;
+    transition:all 300ms ease-in-out;
+}
+
+
+.myform #popover_password .check > span.active
+{
+    color:#111;
+ 
+}
+
+
+
+
+
+
+/* .myform .pass_err
+{
+    margin-top: 2px;
+    width: 340px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #C62828;
+    background:rgba(255, 0, 0, 0.1);
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: block;
+
+} */
+
+
+
+
+
+/* 
+.myform .email[data-error]
+{
+    border-color: #c92432;
+    color: #c92432;
+    /* background: #fffaff; */
+    /* background:rgba(255, 0, 0, 0.1); */
+
+/* } */
+
+/* .myform .email[data-error]::after
+{
+    content: attr(data-error);
+    font-size: 0.85em;
+    display: none;
+    margin: 10px 0;
+    color: #c92432;
+    /* background: red; */
+/* } */
+
+
+
+
